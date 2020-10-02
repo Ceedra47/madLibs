@@ -2,6 +2,7 @@
 img {
   : center;
   width: 700px;
+  
 }
 body {
     background-color:black;
@@ -27,10 +28,14 @@ p {
     font-size: 20px;
     font-family: fantasy;
     font-style: oblique;
+    max-width: 90%;
+    ;
 }
 
 input {
     font-size: 20px;
+    justify-items: center;
+    
 }
 
 h3 {
@@ -38,3 +43,13 @@ h3 {
     font-size: 40px;
     font-family: sans-serif;  
 }
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+}
+
